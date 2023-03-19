@@ -590,6 +590,7 @@ background-color: var(--background-socialblack-icon-hover);
   width: 100%;
   height: 100%;
 
+  transition-property: transform ;
   transform: translate(0, 100%);
   transition-duration: var(--transition-duration);
   transition-timing-function: var(--transition-timing-func);
@@ -617,7 +618,7 @@ background-color: var(--background-socialblack-icon-hover);
 
   padding: 12px 24px;
 
-transition-property: color, background-color, box-shadow, ;
+transition-property: color, background-color, box-shadow;
 transition-duration: var(--transition-duration);
 transition-timing-function: var(--transition-timing-func);
 
